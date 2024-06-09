@@ -1,0 +1,486 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "hallo",
+                "p",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan",
+                "selamat pagi",
+                "selamat siang",
+                "selamat malam",
+                "good morning",
+                "good night",
+                "good afternoon",
+                "helo"
+            ],
+            "responses": [
+                "Helo! Ini chatbot PEKA.IN. Ada yang mau diceritakan?",
+                "Hai! Apa kabar?",
+                "hai! Ada yang bisa saya bantu?",
+                "Hello! Bagaimana hari Anda?",
+                "Hi! Ada yang bisa saya bantu?",
+                "Halo! Ada yang perlu ditanyakan?",
+                "hai! Apa kabar hari ini?",
+                "Hai, apa yang sedang Anda pikirkan?",
+                "Hi! Bagaimana keadaanmu?",
+                "Hallo! Apa yang bisa saya lakukan untukmu?",
+                "Pagi! Ada yang ingin ditanyakan?",
+                "Hai teman! Apa kabar?,",
+                "Hi sis! Ada yang bisa saya lakukan untukmu?",
+                "Halo! Selamat datang di chatbot aplikasi PEKA.IN, Ada yang bisa kami bantu?",
+                "Halo!Selamat datang! apa yang ingin anda ketahui tentang PEKA.IN? ",
+                "Selamat datang!saya adalah chatbot aplikasi PEKA.IN ada yang bisa kami bantu?"
+            ]
+        },
+        {
+            "tag": "tentang Aplikasi",
+            "patterns": [
+                "Apa itu Aplikasi PEKA.IN?",
+                "Apasih PEKA.IN?",
+                "Apa itu PEKA.IN?",
+                "Aplikasi apasih PEKA.IN?",
+                "pekain ap sih",
+                "kasih tau soal pekain",
+                "saya gatau pekain",
+                "jelasin soal pekain"
+            ],
+            "responses": [
+                "PEKA.IN adalah Aplikasi berbasis website yang digunakan untuk melakukan deteksi gerakan bahasa isyarat, yang dilengkapi dengan tampilan website yang menarik dan inovatif",
+                "PEKA.IN adalah webApp yang dirancang untuk menghilangkan hambatan komunikasi antara tuna rungu dengan masyarakat normal",
+                "PEKA.IN adalah aplikasi yang dirancang untuk membantu anda mendeteksi dan memahami gerakan bahasa isyarat",
+                "PEKA.IN adalah sebuah aplikasi yang dirancang untuk mendeteksi dan menerjemahkan bahasa isyarat menjadi teks atau suara.",
+                "Aplikasi PEKA.IN adalah sebuah inovasi teknologi yang membantu dalam mengidentifikasi dan memahami bahasa isyarat.",
+                "PEKA.IN adalah sebuah aplikasi yang menggunakan teknologi canggih untuk mengenali gerakan dan tanda-tanda dalam bahasa isyarat.",
+                "Aplikasi PEKA.IN memiliki tujuan untuk mempermudah komunikasi antara individu yang menggunakan bahasa isyarat dan mereka yang tidak menguasainya.",
+                "PEKA.IN adalah sebuah solusi yang memanfaatkan kecerdasan buatan untuk mengartikan bahasa isyarat menjadi bentuk komunikasi yang lebih umum dipahami.",
+                "Aplikasi PEKA.IN merupakan alat yang membantu dalam menginterpretasikan dan memahami pesan yang disampaikan melalui bahasa isyarat.",
+                "PEKA.IN adalah sebuah aplikasi mobile yang memungkinkan pengguna untuk berkomunikasi dengan orang-orang yang menggunakan bahasa isyarat.",
+                "Aplikasi PEKA.IN menyediakan fitur pendeteksi bahasa isyarat yang membantu pengguna dalam memahami dan merespons pesan dalam bentuk gerakan tangan dan ekspresi wajah.",
+                "PEKA.IN adalah sebuah platform yang memanfaatkan teknologi pengenalan gestur untuk mengenali dan menerjemahkan bahasa isyarat ke dalam bentuk yang lebih mudah dipahami.",
+                "Aplikasi PEKA.IN bertujuan untuk memperluas aksesibilitas dan inklusivitas dengan menghubungkan pengguna bahasa isyarat dengan orang-orang di sekitar mereka melalui teknologi yang inovatif."
+            ]
+        },
+        {
+            "tag": "Bahasa yang didukung",
+            "patterns": [
+                "dalam bahasa apa aplikasi ini tersedia?",
+                "pekain nyediain bahasa apa",
+                "pekain cuma pake bahasa indo",
+                "pekain bisa pke bahasa asing ga",
+                "gabisa pake bahasa lain yah",
+                "pekain pake bahasa indo atau bukan",
+                "tersedia bahasa apa untuk aplikasi ini?",
+                "apakah aplikasi ini didukung bahasa asing?",
+                "bahasa yang digunakan dalam aplikasi ini apa?",
+                "apakah hanya bahasa indonesia saja?",
+                "selain bahasa indonesia apakah ada bahasa pendukung lainnya?"
+            ],
+            "responses": [
+                "Aplikasi ini hanya mendukung bahasa Indonesia.",
+                "Bahasa yang didukung oleh aplikasi ini adalah bahasa Indonesia.",
+                "Aplikasi ini dirancang khusus untuk mendukung penggunaan bahasa Indonesia.",
+                "Hanya bahasa Indonesia yang dapat digunakan dalam aplikasi ini.",
+                "Dalam aplikasi ini, hanya bahasa Indonesia yang tersedia sebagai pilihan bahasa.",
+                "Jika Anda ingin menggunakan aplikasi ini, Anda perlu menggunakan bahasa Indonesia.",
+                "Aplikasi ini hanya berfungsi dengan bahasa Indonesia.",
+                "Bahasa yang dapat digunakan di aplikasi ini terbatas pada bahasa Indonesia.",
+                "Dalam konteks aplikasi ini, hanya bahasa Indonesia yang bisa digunakan.",
+                "Aplikasi ini didesain untuk penggunaan dalam bahasa Indonesia saja."
+            ]
+        },
+        {
+            "tag": "Integrasi dengan aplikasi lain ",
+            "patterns": [
+                "apakah aplikasi ini terintegrasi dengan aplikasi lain?",
+                "terintegrasi sama apa aja pekain",
+                "pekain terintegrasi sama apa aja",
+                "kira kira apa saja yang terintegrasi sama pekain",
+                "apa saja aplikasi yang terintegrasi dengan aplikasi ini?"
+            ],
+            "responses": [
+                "Aplikasi kami terintegrasi dengan Github, youtube dan dataset aplikasi",
+                "Aplikasi ini terintegrasi dengan platform GitHub, memungkinkan pengguna untuk mengakses dan berbagi kode secara mudah.",
+                "Kami bangga menyediakan integrasi dengan YouTube, memungkinkan pengguna untuk mencari, memutar, dan berbagi video secara langsung dari aplikasi.",
+                "Aplikasi ini terintegrasi dengan berbagai dataset, memungkinkan pengguna untuk mengakses sumber daya data yang relevan dan berkualitas.",
+                "Terdapat integrasi dengan GitHub, YouTube, dan berbagai dataset yang memperkaya pengalaman pengguna dalam aplikasi ini.",
+                "Integrasi dengan GitHub memungkinkan pengguna untuk melakukan kolaborasi dalam pengembangan proyek secara efisien.",
+                "Aplikasi ini terhubung dengan YouTube, memberikan akses langsung ke berbagai konten video yang bermanfaat.",
+                "Terdapat integrasi dengan dataset yang kaya dan beragam, memungkinkan pengguna untuk menganalisis dan mengolah data dengan lebih baik.",
+                "Aplikasi ini menyediakan integrasi dengan GitHub, YouTube, dan dataset untuk mendukung kebutuhan pengguna dalam pengembangan dan eksplorasi informasi.",
+                "Integrasi dengan GitHub memungkinkan pengguna untuk mengelola kode proyek dengan mudah dan melakukan kontrol versi.",
+                "Dengan integrasi dengan YouTube, pengguna dapat mengakses konten video terkait langsung dari aplikasi, memperkaya pengalaman belajar dan hiburan."
+            ]
+        },
+        {
+            "tag": "link",
+            "patterns": [
+                "Share link githubnya dong",
+                "link github",
+                "bagi link github",
+                "mana link github sama youtube",
+                "link yt nya mana",
+                "datasetnya bisa minta ga",
+                "ada datasetnya ga",
+                "mau link nya dong",
+                "link youtubnya dong",
+                "mau datasetnya dong",
+                "youtubenya apa?",
+                "githubnya apa?"
+            ],
+            "responses": [
+                "berikut link github  https://github.com/Dennissaputra/PA_Peka, link youtube https://youtu.be/Qi79VG67DCM dan link dataset https://universe.roboflow.com/ngulangterossssss/projek_akhir/ yang dapat anda akses."
+            ]
+        },
+        {
+            "tag": "Cara belajar bahasa isyarat",
+            "patterns": [
+                "bagaimana cara belajar bahasa isyarat yang efektif?",
+                "cara efektif mempelajari bahasa isyarat?",
+                "bagaimana cara agar bisa mempelajari bahasa isyarat?",
+                "gimana caranya belajar bahasa isyarat",
+                "kasih tips belajar bahasa isyarat dong",
+                "tutor bahasa isyarat dong",
+                "bingung pengn belajar bahasa isyarat kaya gimna",
+                "pengen belajar bahasa isyarat dong"
+
+            ],
+            "responses": [
+                "Ada beberapa cara yang dapat Anda coba untuk belajar Bahasa Isyarat, seperti mengikuti kursus atau pelatihan khusus, menggunakan aplikasi belajar Bahasa Isyarat, atau belajar melalui buku dan sumber belajar online.",
+                "Salah satu cara efektif untuk belajar Bahasa Isyarat adalah dengan bergabung dengan komunitas pendengar Bahasa Isyarat di sekitar Anda dan berlatih secara langsung dengan penutur asli Bahasa Isyarat.",
+                "Menonton video tutorial online atau kursus video tentang Bahasa Isyarat juga dapat membantu Anda mempelajari gerakan tangan dan frasa umum dalam Bahasa Isyarat.",
+                "Menggunakan kamus Bahasa Isyarat, baik dalam bentuk cetak maupun dalam bentuk aplikasi, dapat membantu Anda mempelajari kosakata dan frasa dalam Bahasa Isyarat.",
+                "Mengikuti kelas Bahasa Isyarat dengan instruktur yang berpengalaman dapat memberikan Anda bimbingan langsung dan umpan balik yang berguna dalam mempelajari Bahasa Isyarat.",
+                "Berlatih secara konsisten adalah kunci dalam mempelajari Bahasa Isyarat. Carilah kesempatan untuk berlatih dengan orang lain yang juga tertarik dalam Bahasa Isyarat.",
+                "Menghadiri acara atau pertemuan yang berkaitan dengan Bahasa Isyarat, seperti lokakarya atau pertunjukan Bahasa Isyarat, dapat membantu meningkatkan pemahaman dan keterampilan Anda.",
+                "Berpartisipasi dalam permainan atau aktivitas interaktif yang melibatkan Bahasa Isyarat, seperti permainan tebak kata atau peran, dapat membuat proses belajar lebih menyenangkan dan interaktif",
+                "Jangan ragu untuk bertanya kepada penutur asli Bahasa Isyarat jika Anda memiliki pertanyaan atau kesulitan dalam mempelajari Bahasa Isyarat. Mereka dapat memberikan wawasan dan bimbingan yang berharga.",
+                "Ingatlah bahwa mempelajari Bahasa Isyarat membutuhkan waktu dan latihan yang konsisten. Tetaplah termotivasi, bersabar, dan terus berlatih untuk mengembangkan kemampuan Bahasa Isyarat Anda."
+            ]
+        },
+        {
+            "tag": "Tentang Kamus",
+            "patterns": [
+                "ko cuma sedikit",
+                "ko cuma  50",
+                "bahasanya kenapa kurang",
+                "bahasanya ga lengkap",
+                "bahasanya sedikit banget",
+                "ko ga buat banyak",
+                "ko ga bikin lengkap",
+                "kamusnya sedikit banget",
+                "kurang lengkap",
+                "kenapa kamusnya cuma sedikit?",
+                "kamusnya kok sedikit"
+            ],
+            "responses": [
+                "Bahasa yang tersedia terdiri dari 50 kata atau sedikit mungkin merupakan representasi terbatas dari kata-kata yang paling umum atau penting dalam suatu bahasa.",
+                "Terbatasnya jumlah kata dalam bahasa yang tersedia mungkin disesuaikan dengan kebutuhan dan situasi komunikasi yang paling umum.",
+                "Pemilihan kata-kata yang terbatas dalam bahasa yang tersedia dapat membantu mempercepat dan menyederhanakan proses pembelajaran dan komunikasi.",
+                "Bahasa yang tersedia dengan jumlah kata yang terbatas mungkin lebih fokus pada kosakata yang paling sering digunakan dalam kehidupan sehari-hari.",
+                "Terbatasnya jumlah kata dalam bahasa yang tersedia dapat menjadi titik awal atau fondasi untuk mempelajari bahasa tersebut, di mana kemudian dapat dikembangkan lebih lanjut dengan kosakata yang lebih luas.",
+                "Pembatasan pada jumlah kata dalam bahasa yang tersedia mungkin bertujuan untuk memperkuat pemahaman dan penggunaan kata-kata dasar sebelum melangkah ke kosakata yang lebih kompleks.",
+                "Bahasa yang tersedia dengan jumlah kata yang terbatas mungkin dirancang untuk memperhatikan kesederhanaan dan efisiensi dalam komunikasi.",
+                "Pembatasan jumlah kata dalam bahasa yang tersedia mungkin berguna dalam konteks pendidikan atau aplikasi komunikasi yang spesifik, di mana fokus utama adalah pada kosakata dasar.",
+                "Bahasa yang tersedia dengan kata-kata terbatas dapat membantu pemula dalam membangun dasar pemahaman dan keterampilan bahasa sebelum memperluas kosakata mereka.",
+                "Terbatasnya jumlah kata dalam bahasa yang tersedia mungkin disesuaikan dengan kemampuan kognitif atau pemahaman awal individu yang sedang mempelajari bahasa tersebut."
+            ]
+        },
+        {
+            "tag": "kelemahan aplikasi",
+            "patterns": [
+                "kenapa ada kata yang tidak dapat terdeteksi?",
+                "beberapa kata di kamus tidak dapat terdeteksi",
+                "mengapa kata berpikir tidak dapat terdeteksi?",
+                "ko ga kedeteksi sebagian",
+                "kenapa ada yang ga kedeteksi",
+                "ada yang miss kata nya",
+                "deteksinya ada yang ga akurat",
+                "ko ga akurat",
+                "kirain kedeteksi semua",
+                "mengapa kata Lupa tidak dapat terdeteksi?",
+                "mengapa kata kakak tidak dapat terdeteksi?",
+                "mengapa kata aku cinta kamu tidak dapat terdeteksi?",
+                "mengapa kata aku tidak dapat terdeteksi?",
+                "mengapa kata mobil tidak dapat terdeteksi?",
+                "mengapa kata motor tidak dapat terdeteksi?",
+                "mengapa kata teman tidak dapat terdeteksi?",
+                "mengapa kata bagus tidak dapat terdeteksi?",
+                "mengapa kata meminta tidak dapat terdeteksi?",
+                "mengapa kata berpikir tidak dapat terdeteksi?",
+                "mengapa kata bahagia tidak dapat terdeteksi?",
+                "mengapa kata bau tidak dapat terdeteksi?",
+                "mengapa kata janji tidak dapat terdeteksi?"
+            ],
+            "responses": [
+                "Algoritma pendeteksi bahasa mungkin memiliki keterbatasan dalam mengenali atau mendeteksi beberapa bahasa yang jarang atau kurang umum",
+                "Bahasa-bahasa tertentu mungkin tidak terdeteksi karena tidak memiliki cukup data atau sampel yang cukup dalam dataset pelatihan algoritma pendeteksi bahasa.",
+                "Variasi dialek atau aksen dalam suatu bahasa dapat menyebabkan kesulitan dalam pendeteksian bahasa secara akurat.",
+                "Beberapa bahasa mungkin tidak terdeteksi karena kurangnya dukungan atau perhatian terhadap bahasa tersebut dalam pengembangan algoritma pendeteksi bahasa.",
+                "Kemungkinan ada kesalahan atau kekurangan dalam algoritma pendeteksi bahasa yang menyebabkan beberapa bahasa tidak terdeteksi secara tepat.",
+                "Terkadang, bahasa-bahasa baru atau bahasa-bahasa yang sedang berkembang mungkin belum diakui atau didukung oleh algoritma pendeteksi bahasa saat ini.",
+                "Faktor teknis seperti karakteristik akustik atau visual bahasa tertentu dapat mempengaruhi kemampuan algoritma dalam mendeteksi bahasa tersebut.",
+                "Terbatasnya sumber daya atau waktu untuk mengumpulkan dan mempelajari data bahasa yang lebih langka atau tidak umum dapat menyebabkan bahasa-bahasa tersebut tidak terdeteksi.",
+                "Bahasa-bahasa kuno atau bahasa yang hanya digunakan dalam lingkungan tertentu mungkin tidak terdeteksi karena kurangnya data atau pemahaman tentang bahasa tersebut.",
+                "Perkembangan teknologi pendeteksi bahasa terus berlangsung, dan beberapa bahasa mungkin belum diintegrasikan atau dikenali oleh algoritma pendeteksi bahasa saat ini, tetapi dapat ditambahkan di masa depan."
+            ]
+        },
+        {
+            "tag": "Kelebihan aplikasi",
+            "patterns": [
+                "apa kelebihan aplikasi ini?",
+                "kelebihannya apa sih",
+                "kelebihannya apa",
+                "apa sih keuntungannya",
+                "apa keunggulannya",
+                "aplikasinya punya kelebihan apa",
+                "aplikasi ini kelebihannya apa aja?",
+                "kelebihan aplikasinya apa?",
+                "apa aja kelebihan aplikasi ini?",
+                "dibandingkan aplikasi lain,kelebihannya apa?",
+                "keunggulan aplikasi ini apa?",
+                "apa saja keunggulan aplikasi ini?",
+                "keunggulan aplikasi",
+                "apasi keunggulannya?"
+            ],
+            "responses": [
+                "Kelebihan aplikasi kami termasuk tampilan yang menarik dan eye-catching.",
+                "Salah satu kelebihan utama aplikasi kami adalah akurasi tinggi dalam memberikan respon.",
+                "Kami bangga dengan responsivitas website kami yang memastikan pengalaman pengguna yang lancar.",
+                "Aplikasi kami dapat digunakan dengan baik di berbagai jenis smartphone.",
+                "Tim pengembang kami tidak hanya berbakat, tetapi juga memiliki kecantikan dan ketampanan yang luar biasa.",
+                "Salah satu kelebihan aplikasi kami adalah fitur yang informatif dan berguna bagi pengguna.",
+                "Tampilan aplikasi kami didesain dengan baik, menarik, dan ramah pengguna.",
+                "Kami menekankan kelebihan aplikasi kami dalam tampilan yang menarik dan friendly.",
+                "Kelebihan aplikasi kami meliputi tampilan yang estetis dan menarik bagi pengguna.",
+                "Aplikasi kami memiliki keunggulan dalam tampilan yang menarik, akurasi tinggi, responsivitas website, kompatibilitas dengan berbagai smartphone, kecerdasan tim pengembang, serta fitur yang memberikan informasi yang berguna."
+            ]
+        },
+        {
+            "tag": "sulit deteksi",
+            "patterns": [
+                "kenapa sulit mendeteksi?",
+                "kenapa susah?",
+                "bagaimana biar bisa deteksi dengan baik?",
+                "apa yang harus dilakukan supaya bisa deteksi dengan baik",
+                "apa sebabnya sulit terdeteksi?",
+                "caranya biar akurat gimana",
+                "biar pas di kamera gimana",
+                "biar gampang kedeteksi gimna",
+                "biar katanya terdeteksi gimana",
+                "kenapa tidak bisa mendeteksi dengan baik"
+            ],
+            "responses": [
+                "Pastikan gerakan Anda jelas dan terlihat dengan baik oleh kamera.",
+                "Perhatikan pencahayaan yang memadai agar gerakan Anda terlihat dengan lebih baik.",
+                "Usahakan untuk melakukan gerakan dengan perlahan dan tegas, agar dapat terdeteksi dengan lebih akurat.",
+                "Hindari gerakan yang terlalu cepat atau terlalu kecil, karena hal tersebut dapat menyulitkan deteksi gerakan.",
+                "Pastikan Anda berada dalam jangkauan kamera dengan posisi tubuh yang optimal.",
+                "Gunakan latar belakang yang kontras dengan warna pakaian Anda, agar gerakan lebih terlihat jelas.",
+                "Posisikan tangan dan lengan dengan jelas, karena gerakan tangan sering menjadi fokus dalam pendeteksian.",
+                "Hindari menggunakan aksesori atau pakaian yang dapat menghalangi deteksi gerakan, seperti tali rambut yang terlalu panjang atau lengan yang terlalu longgar.",
+                "Praktikkan gerakan secara konsisten dan pahami pola gerakan yang dapat terdeteksi dengan baik.",
+                "Jika memungkinkan, ikuti petunjuk atau panduan khusus yang diberikan oleh aplikasi atau sistem deteksi gerakan yang Anda gunakan."
+            ]
+        },
+        {
+            "tag": "Pentingnya bahasa isyarat",
+            "patterns": [
+                "penting ga bahasa isyarat?",
+                "emang bahasa isyarat penting",
+                "penting ga sih belajar bahasa isyarat",
+                "sepenting apa harus belajar bahasa isyarat",
+                "emng penting banget",
+                "sepenting apa",
+                "penting banget ya",
+                "bermanfaat banget ya",
+                "semanfaat apa sih",
+                "seberapa penting belajar bahasa isyarat?",
+                "Apasih pentingnya kita mempelajari bahasa isyarat?",
+                "kenapa kitta harus belajar bahasa isyarat?"
+            ],
+            "responses": [
+                "Belajar Bahasa Isyarat sebagai orang yang dapat mendengar dapat membantu memperluas kemampuan komunikasi Anda dengan orang-orang yang menggunakan Bahasa Isyarat sebagai bahasa pertama.",
+                "Memiliki pengetahuan Bahasa Isyarat dapat membantu Anda berkomunikasi dengan orang-orang yang memiliki gangguan pendengaran, sehingga memungkinkan interaksi yang lebih inklusif.",
+                "Belajar Bahasa Isyarat dapat meningkatkan pemahaman Anda tentang budaya dan kehidupan komunitas orang-orang yang menggunakan Bahasa Isyarat.",
+                "Dengan mempelajari Bahasa Isyarat, Anda dapat menjadi mediator atau penghubung antara komunitas yang menggunakan Bahasa Isyarat dan mereka yang tidak.",
+                "Menggunakan Bahasa Isyarat juga dapat memberikan Anda keuntungan dalam situasi di mana tidak mungkin atau sulit mendengar, misalnya dalam lingkungan bising atau di jarak jauh.",
+                "Memahami Bahasa Isyarat dapat membantu Anda mengembangkan keterampilan nonverbal dan kesadaran akan ekspresi wajah dan gerakan tubuh.", "Belajar Bahasa Isyarat dapat memberikan Anda kesempatan untuk terlibat dalam acara atau kegiatan komunitas yang melibatkan Bahasa Isyarat, seperti pertunjukan seni atau kelompok diskusi.",
+                "Menggunakan Bahasa Isyarat sebagai bahasa tambahan dapat meningkatkan keberagaman keterampilan komunikasi Anda dan memperluas kesempatan sosial Anda.",
+                "Belajar Bahasa Isyarat dapat membantu meningkatkan empati dan pemahaman terhadap pengalaman dan tantangan yang dihadapi oleh orang-orang dengan gangguan pendengaran.",
+                "Mengetahui Bahasa Isyarat juga dapat memperluas peluang pekerjaan dan menjadi keunggulan dalam bidang-bidang yang melibatkan komunikasi dengan orang-orang yang menggunakan Bahasa Isyarat."
+            ]
+        },
+        {
+            "tag": "Fitur Utama aplikasi",
+            "patterns": [
+                "Apa saja fitur-fitur unggulan aplikasi ini?",
+                "Fitur apa saja yang tersedia?",
+                "ada apa aja sih fitur nya?",
+                "fiturnya apa",
+                "banyak fitur ga",
+                "fiturnya apa aja sih",
+                "pengn tau fiturnya",
+                "apa sih fitur yang ada",
+                "ada fitur apa aja",
+                "Fitur pelengkap aplikasi ini apa?",
+                "fiturnya ada apa aja?"
+            ],
+            "responses": [
+                "webApp PEKA.IN dilengkapi fitur utama yaitu fitur deteksi bahasa isyarat, fitur kamus bahasa isyarat"
+            ]
+        },
+        {
+            "tag": "konsultasi",
+            "patterns": [
+                "admin restar API",
+                "restart api",
+                "muat ulang api",
+                "muat ulang API"
+            ],
+            "responses": [
+                "silahkan hubungi 085782157834 untuk merestar API"
+            ]
+        },
+        {
+            "tag": "cara penggunaan aplikasi",
+            "patterns": [
+                "bagaimana cara menggunakan aplikasi PEKA.IN?",
+                "cara pakai aplikasi ini bagaimana?",
+                "gimana pake aplikasi ini?",
+                "cara pakenya gimna",
+                "tutor pake aplikasinya",
+                "cara pake aplikasinya gimna",
+                "gimana tutornya",
+                "kasih tau cara pake aplikasinya",
+                "tutorial menggunakan aplikasi ini?"
+            ],
+            "responses": [
+                "Untuk menggunakan webAplikasi ini pastikan anda telah terhubung dengan koneksi internet, kemudian pilih menu deteksi dan arahkan kamera perangkat anda ke gerakan bahasa isyarat dan web aplikasi akan mendeteksi dan menterjemahkannya"
+            ]
+        },
+        {
+            "tag": "Ketersediaan platform",
+            "patterns": [
+                "Apakah aplikasi ini tersedia untuk semua platform?",
+                "platform apa saja yang bisa digunakan untuk membuka aplikasi ini?",
+                "Apakah bisa dibuka di platform windows?",
+                "apakah bisa untuk iOS",
+                "bisa untuk ios ga",
+                "aplikasinya cuma bisa di android",
+                "aplikasinya bisa dipke dimna aja",
+                "ada di android ga",
+                "ada di windows ga",
+                "Apakah semua platform dapat digunakan untuk aplikasi ini?"
+            ],
+            "responses": [
+                "Aplikasi kami tersedia untuk berbagai platform, seperti windows, iOS, dan android."
+            ]
+        },
+        {
+            "tag": "Ugly aps",
+            "patterns": [
+                "aplikasinya jelek ih",
+                "kenapa aplikasinya jelek?",
+                "kenapa fitur deteksinya lemot? ",
+                "jelek",
+                "aplikasinya kurang baik",
+                "aplikasinya ga bermutu",
+                "kok aplikasinya ga bagus?",
+                "ga bagus",
+                "kurang cocok aplikasinya",
+                "aplikasinya jelek banget"
+            ],
+            "responses": [
+                "Maaf jika aplikasinya tidak memenuhi harapan Anda. Kami selalu berupaya untuk meningkatkan pengalaman pengguna dan masukan Anda sangat berharga bagi kami.",
+                "Maaf jika aplikasinya tidak memenuhi standar kualitas yang Anda harapkan. Kami selalu berusaha untuk memberikan pengalaman terbaik kepada pengguna kami dan akan terus berupaya memperbaiki kelemahan yang ada.",
+                "Maaf jika Anda mengalami kesulitan dalam menggunakan aplikasi kami. Tim kami akan senang membantu Anda mengatasi masalah apa pun yang Anda temui.",
+                "Maaf jika ada masalah dalam desain atau antarmuka pengguna yang membuatnya terlihat jelek. Kami selalu berusaha untuk meningkatkan desain agar sesuai dengan preferensi pengguna kami.",
+                "Maaf jika aplikasi kami tidak memenuhi kebutuhan atau harapan Anda. Kami terus berusaha untuk memperluas fitur dan fungsionalitas aplikasi kami berdasarkan umpan balik pengguna.",
+                "Maaf jika aplikasi kami tidak berkinerja sebaik yang Anda harapkan. Tim pengembangan kami akan melakukan pemeriksaan lebih lanjut untuk mengidentifikasi dan memperbaiki masalah teknis yang mungkin terjadi.",
+                "Maaf jika ada fitur-fitur yang tidak berfungsi dengan baik. Kami akan segera memperbaiki masalah tersebut dan memastikan fitur-fitur kami berjalan dengan baik.",
+                "Maaf jika ada keterbatasan dalam aplikasi kami. Kami terus berusaha untuk memperluas fitur dan fungsionalitas kami agar dapat memenuhi kebutuhan pengguna dengan lebih baik.",
+                "Maaf jika Anda mengalami ketidaknyamanan menggunakan aplikasi kami. Kami berterima kasih atas kesabaran dan kesediaan Anda memberikan umpan balik yang berharga bagi kami.",
+                "Maaf jika aplikasi kami tidak memenuhi harapan Anda. Kami berkomitmen untuk terus mengembangkan dan memperbaiki aplikasi kami agar dapat memberikan pengalaman pengguna yang lebih baik di masa mendatang."
+            ]
+        },
+        {
+            "tag": "Pengembang Aplikasi",
+            "patterns": [
+                "siapa pengembang aplikasi ini?",
+                "yang bikinnya ini siapa",
+                "coba spill yang buatnya siapa",
+                "spill yang bikinnya",
+                "spil dong buatan siapa",
+                "pngn tau yang bikinnya",
+                "pngn tau yang buatnya",
+                "yang mengembangkan aplikasi ini siapa?",
+                "siapa yang membuat aplikasi ini?",
+                "mau kenalan sama yang buat aplikasinya dong",
+                "aplikasi ini dibuat oleh siapa?",
+                "siapa pembuatmu?",
+                "siapa pengembang aplikasi ini"
+            ],
+            "responses": [
+                "Aplikasi chatbot ini dikembangkan oleh tim yang terdiri dari Rifan Afiansyah, Dennis Saputra.A, Hani Nur Asri, dan Amanatul Khomisah.",
+                "Rifan Afiansyah, Dennis Saputra.A, Hani Nur Asri, dan Amanatul Khomisah merupakan para pengembang yang menciptakan aplikasi chatbot ini.",
+                "Tim pengembang yang terdiri dari Rifan Afiansyah, Dennis Saputra.A, Hani Nur Asri, dan Amanatul Khomisah bertanggung jawab atas penciptaan aplikasi chatbot ini.",
+                "Aplikasi chatbot ini merupakan hasil karya dari kolaborasi antara Rifan Afiansyah, Dennis Saputra.A, Hani Nur Asri, dan Amanatul Khomisah.",
+                "Nama-nama yang Anda sebutkan, yaitu Rifan Afiansyah, Dennis Saputra.A, Hani Nur Asri, dan Amanatul Khomisah, adalah orang-orang yang menciptakan aplikasi chatbot ini.",
+                "Tim pengembang yang terdiri dari Rifan Afiansyah, Dennis Saputra.A, Hani Nur Asri, dan Amanatul Khomisah merupakan otak di balik pembuatan aplikasi chatbot ini.",
+                "Aplikasi chatbot ini dirancang dan dikembangkan oleh Rifan Afiansyah, Dennis Saputra.A, Hani Nur Asri, dan Amanatul Khomisah.",
+                "Rifan Afiansyah, Dennis Saputra.A, Hani Nur Asri, dan Amanatul Khomisah adalah tim yang menciptakan aplikasi chatbot ini dengan keahlian dan kontribusi masing-masing.",
+                "Pengembangan aplikasi chatbot ini dilakukan oleh Rifan Afiansyah, Dennis Saputra.A, Hani Nur Asri, dan Amanatul Khomisah sebagai bagian dari tim pengembang.",
+                "Nama-nama yang Anda sebutkan, yaitu Rifan Afiansyah, Dennis Saputra.A, Hani Nur Asri, dan Amanatul Khomisah, adalah orang-orang yang terlibat dalam proses penciptaan aplikasi chatbot ini."
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Terima kasih",
+                "Makasih",
+                "Terima kasih banyak",
+                "makasih ya",
+                "Dah",
+                "Dadah!",
+                "Bye",
+                "See you",
+                "Good bye",
+                "Selamat tinggal",
+                "Udah dulu ya",
+                "Bye Bye",
+                "sampai jumpa",
+                "arigatou",
+                "by",
+                "sampai jumpa kembali"
+            ],
+            "responses": [
+                "Selamat tinggal! Semoga harimu menyenangkan.",
+                "Terimakasih! Senang bisa membantu Anda.",
+                "Sampai jumpa! Jangan ragu untuk kembali jika ada yang perlu ditanyakan.",
+                "Terimakasih atas kunjungannya! Semoga apa yang Anda cari dapat Anda temukan.",
+                "Selamat tinggal dan terimakasih! Semoga harimu penuh berkah.",
+                "Terimakasih banyak! Kami senang bisa menjadi bagian dari perjalanan Anda.",
+                "Sampai berjumpa lain waktu! Terimakasih atas kepercayaan Anda kepada kami.",
+                "Terimakasih telah menggunakan layanan kami! Selamat beraktivitas.",
+                "Selamat tinggal dan terimakasih sudah memberikan kesempatan kepada kami untuk melayani Anda.",
+                "Terimakasih dan sampai jumpa! Semoga harimu penuh kebahagiaan."
+
+            ]
+        }
+    ]
+}
